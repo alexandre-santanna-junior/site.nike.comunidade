@@ -1,0 +1,186 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+    color: white;
+    min-width: 100wh;
+    min-height: 100hw;
+    
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    align-items: center;
+}
+.logo-header{
+    display: flex;
+    width: 50px;
+    right: 50px;
+}
+.menu-itens:hover{
+    color:#75D1F6;
+    transition: 0.3 all;
+}
+.menu-itens-nike:hover{
+    background-color: #75d2f6cc;
+    color: white;
+    border: 2px solid white;
+}
+.menu-itens{
+    margin: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.menu-itens-nike{
+    margin: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.774);
+    padding: 8px;
+    border-radius: 10px;
+}
+.section-1{
+    display: flex;
+    justify-content: space-around;
+    padding: 150px;
+    align-items: center;
+}
+.div-1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.titulo-principal{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.titulo-secundario{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.imagem-principal{
+    width: 450px;
+    right: 400px;
+}
+.receber{
+    width: 400px;
+    right: 400px;
+    padding: 4px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgba(255, 255, 255, 0.774);
+    border-radius: 5px;
+    text-align: center;
+}
+.enviar{
+    width: 400px;
+    right: 400px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.89);
+    border-radius: 20px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.enviar:hover{
+    background-color: #75d2f6cc;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.section-2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.titulo-terceiro{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin: 10px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+footer{
+  background-color: black);
+  text-align: center;
+}
+.logo-footer{
+    width: 500px;
+    right: 100px;
+    padding: 80px;
+}
+.eu{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media(max-width: 450px){
+    body{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-self: center;
+    }
+    .section-1{
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .imagem-principal{
+        margin-top: 50px;
+        
+        width: 180px;
+        right: 180px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+    .menu-itens{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+    .titulo-principal{
+        font-size: 30px;
+        text-align: center;
+    }
+    .titulo-secundario{
+        font-size: 14px;
+    }
+    .receber{
+        width: 200px;
+        margin-left: 10px;
+    }
+    .enviar{
+        width: 200px;
+        margin-left: 10px;
+    }
+    .titulo-terceiro{
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+    }
+    footer{
+        margin-left: 25px;
+        text-align: center;
+    }
+}
+   
